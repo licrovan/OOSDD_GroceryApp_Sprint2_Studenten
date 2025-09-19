@@ -6,12 +6,12 @@ on:
       - main
       - infra/runner-toevoegen
       - testing
-      - development
+      - develop
   pull_request:
     branches:
       - main
       - testing
-      - development
+      - develop
  
 jobs:
   test:
